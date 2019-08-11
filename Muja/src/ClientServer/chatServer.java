@@ -22,7 +22,7 @@ public class chatServer {
 			while(!str.equals("stop")) {
 				
 				str= din.readUTF();
-				System.out.println("Client says: "+str);
+				System.out.println("Venkat: "+str);
 				str2 =br.readLine();
 				dout.writeUTF(str2);
 				dout.flush();
