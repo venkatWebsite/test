@@ -22,7 +22,7 @@ public class chatClient {
 				dout.writeUTF(str);
 				dout.flush();
 				str2=din.readUTF();
-				System.out.println("Server says: "+ str2);
+				System.out.println("Priya: "+ str2);
 				
 				
 			}
