@@ -11,7 +11,7 @@ import java.net.Socket;
 
 public class test {
 
-	public static void server()  extends chatClient throws IOException{
+	public static void server()   throws IOException{
 
 		try {
 			ServerSocket ss = new ServerSocket(1151);
