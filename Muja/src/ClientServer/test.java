@@ -8,12 +8,13 @@ import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class chatServer {
 
-	public static void main(String[] args) {
-		
+public class test {
+
+	public static void server()  extends chatClient throws IOException{
+
 		try {
-			ServerSocket ss = new ServerSocket(1157);
+			ServerSocket ss = new ServerSocket(1151);
 			Socket s = ss.accept();
 			DataInputStream din = new DataInputStream(s.getInputStream());
 			DataOutputStream dout = new DataOutputStream(s.getOutputStream());
@@ -40,8 +41,14 @@ public class chatServer {
 			e.printStackTrace();
 		}
 		
-		
-		
-	}
-
+	
+}
+public static void main(String[] args) throws IOException, InterruptedException {
+	test.server();
+	Thread.sleep(2000);
+	
+	
+	
+	
+}
 }
