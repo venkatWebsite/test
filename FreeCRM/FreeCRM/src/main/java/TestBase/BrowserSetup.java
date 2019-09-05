@@ -21,7 +21,7 @@ public class BrowserSetup {
 
 	public BrowserSetup() {
 		try {
-			reader =new BufferedReader(new FileReader("C:\\Users\\USER\\eclipse-workspace\\FreeCRM\\src\\main\\resources\\Resources\\config.properties"));
+			reader =new BufferedReader(new FileReader("https://github.com/venkatWebsite/test/blob/master/FreeCRM/FreeCRM/src/main/resources/Resources/config.properties"));
 			props = new Properties();
 			try {
 				props.load(reader);
