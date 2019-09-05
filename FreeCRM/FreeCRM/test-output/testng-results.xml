@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="209925" started-at="2019-09-01T15:54:18Z" finished-at="2019-09-01T15:57:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="209925" started-at="2019-09-01T15:54:18Z" finished-at="2019-09-01T15:57:48Z">
+      <class name="TestCases.LoginTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:TestCases.LoginTest@bbfa04]" name="startBrowser" is-config="true" duration-ms="47028" started-at="2019-09-01T21:24:22Z" finished-at="2019-09-01T21:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="loginCRM(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@bbfa04]" name="loginCRM" duration-ms="20798" started-at="2019-09-01T21:25:10Z" data-provider="data" finished-at="2019-09-01T21:25:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mail1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCRM -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:TestCases.LoginTest@bbfa04]" name="Teardown" is-config="true" duration-ms="1625" started-at="2019-09-01T21:25:30Z" finished-at="2019-09-01T21:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:TestCases.LoginTest@bbfa04]" name="startBrowser" is-config="true" duration-ms="24653" started-at="2019-09-01T21:25:32Z" finished-at="2019-09-01T21:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="loginCRM(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@bbfa04]" name="loginCRM" duration-ms="13752" started-at="2019-09-01T21:25:57Z" data-provider="data" finished-at="2019-09-01T21:26:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mail1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCRM -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:TestCases.LoginTest@bbfa04]" name="Teardown" is-config="true" duration-ms="1867" started-at="2019-09-01T21:26:10Z" finished-at="2019-09-01T21:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:TestCases.LoginTest@bbfa04]" name="startBrowser" is-config="true" duration-ms="19948" started-at="2019-09-01T21:26:12Z" finished-at="2019-09-01T21:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="loginCRM(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@bbfa04]" name="loginCRM" duration-ms="10402" started-at="2019-09-01T21:26:32Z" data-provider="data" finished-at="2019-09-01T21:26:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mail1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCRM -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:TestCases.LoginTest@bbfa04]" name="Teardown" is-config="true" duration-ms="1627" started-at="2019-09-01T21:26:43Z" finished-at="2019-09-01T21:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:TestCases.LoginTest@bbfa04]" name="startBrowser" is-config="true" duration-ms="17523" started-at="2019-09-01T21:26:44Z" finished-at="2019-09-01T21:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="loginCRM(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@bbfa04]" name="loginCRM" duration-ms="12636" started-at="2019-09-01T21:27:02Z" data-provider="data" finished-at="2019-09-01T21:27:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mail1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCRM -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:TestCases.LoginTest@bbfa04]" name="Teardown" is-config="true" duration-ms="1792" started-at="2019-09-01T21:27:14Z" finished-at="2019-09-01T21:27:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:TestCases.LoginTest@bbfa04]" name="startBrowser" is-config="true" duration-ms="19284" started-at="2019-09-01T21:27:16Z" finished-at="2019-09-01T21:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="loginCRM(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@bbfa04]" name="loginCRM" duration-ms="11136" started-at="2019-09-01T21:27:35Z" data-provider="data" finished-at="2019-09-01T21:27:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mail1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCRM -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:TestCases.LoginTest@bbfa04]" name="Teardown" is-config="true" duration-ms="1753" started-at="2019-09-01T21:27:47Z" finished-at="2019-09-01T21:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

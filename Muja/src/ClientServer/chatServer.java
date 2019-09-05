@@ -13,7 +13,7 @@ public class chatServer {
 	public static void main(String[] args) {
 		
 		try {
-			ServerSocket ss = new ServerSocket(1157);
+			ServerSocket ss = new ServerSocket(4444);
 			Socket s = ss.accept();
 			DataInputStream din = new DataInputStream(s.getInputStream());
 			DataOutputStream dout = new DataOutputStream(s.getOutputStream());
